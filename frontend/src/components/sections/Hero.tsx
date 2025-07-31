@@ -26,7 +26,7 @@ function Hero() {
               John Park
             </h1>
             <p className="text-xl md:text-2xl text-blue-600 dark:text-blue-400 font-medium mb-6 animate-fade-in animation-delay-200">
-              Recent Grad Software Engineer
+              Junior Software Developer
             </p>
 
             {/* Social Links */}
@@ -62,6 +62,6 @@ function Hero() {
       </div>
     </section>
   );
-};
+}
 
 export default Hero;
