@@ -1,6 +1,5 @@
 import { Project } from "../types";
 import gabin_logo from "../components/images/gabin_logo.jpg";
-import gabin_demo_img from "../components/images/gabin_demo_image.jpg";
 import tip_image from "../components/images/tip_image.jpg";
 import weekly_todo from "../components/images/weekly_todo.jpg";
 
@@ -85,24 +84,6 @@ export const projects: Project[] = [
   },
   {
     id: 5,
-    title: "Restaurant Demo Website",
-    description:
-      "Demo website using React to visually showcase proposed website design and functionality.",
-    longDescription:
-      "This demo restaurant website showcases a modern, responsive design built using React and TypeScript for front-end development, Tailwind CSS for styling, and Node.js for back-end functionality. The static site includes four main tabs: Home, Menu, About, and Contact, each crafted to deliver a smooth user experience. Integrated contact form powered by NodeMailer, which sends customer inquiries directly to the store's email.",
-    image: gabin_demo_img,
-    category: "web",
-    tags: ["React", "TypeScript", "Node.js"],
-    features: [
-      "Modern UI Design",
-      "Interactive Contact Form",
-      "Four Distinct Pages",
-    ],
-    githubUrl: "https://github.com/J-spark408/demo_web",
-    liveUrl: "http://gabindemoweb.netlify.app",
-  },
-  {
-    id: 6,
     title: "Connect Four with AI (Project)",
     description:
       "A browser-based Classic Connect Four game featuring player vs AI mode.",
